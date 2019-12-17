@@ -55,7 +55,8 @@ declare module 'react-native-swiper' {
     loadMinimalSize?: number
     // Custom loader to display when slides aren't loaded
     loadMinimalLoader?: React.ReactNode
-
+    // If enabled nested scrolls will work
+    nestedScrollEnabled?: boolean
     // Pagination
     // Set to true make pagination visible.
     showsPagination?: boolean
